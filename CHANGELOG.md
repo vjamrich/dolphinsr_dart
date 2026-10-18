@@ -1,3 +1,6 @@
+## [Unreleased]
+- Fix `dueDate` for lapsed cards. A card you got wrong kept its old interval, so its due date was weeks out while `nextCard()` was already serving it. It's now due straight away.
+
 ## [4.0.0] - 19/07/2026
 First release published to pub.dev, under the new package name `dolphinsr` (previously `dolphinsr_dart`). Import it as `package:dolphinsr/dolphinsr.dart`.
 
